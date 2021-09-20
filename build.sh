@@ -9,7 +9,6 @@ if [[ $1 != '0' ]]; then
   if [[ -f $1 ]]; then
     echo -e "\n\033[32mExecute result\033[0m"
     java -cp $(pwd)/build/ $(basename $1 .class)
-    exit 0
   else
     echo "public class {
   public static void main(String args[]) {
