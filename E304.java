@@ -19,7 +19,7 @@ class MyTime {
   }
 
   public void printTime() {
-//    hour = (hour>0&&hour <10)?"0"+hour:hour+2;
+    //    hour = (hour>0&&hour <10)?"0"+hour:hour+2;
     System.out.println("0" + hour + ":" + minute + ":" + second);
   };
 }
