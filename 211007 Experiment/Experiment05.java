@@ -9,9 +9,9 @@ public class Experiment05 {
     int UnitPrice = 100;
     double TotalPrice = 0;
     if (x <  10) TotalPrice = (x * UnitPrice) * 1.0;
-    if (x >= 10) TotalPrice = (x * UnitPrice) * 0.9;
-    if (x >= 30) TotalPrice = (x * UnitPrice) * 0.8;
-    if (x >= 50) TotalPrice = (x * UnitPrice) * 0.7;
+    else if (x >= 10) TotalPrice = (x * UnitPrice) * 0.9;
+    else if (x >= 30) TotalPrice = (x * UnitPrice) * 0.8;
+    else if (x >= 50) TotalPrice = (x * UnitPrice) * 0.7;
     System.out.print("总价 = " + TotalPrice);
   }
 }

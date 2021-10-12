@@ -8,8 +8,8 @@ public class Experiment01 {
     double x = text.nextDouble();
     double y = 0; 
     if (x < 1)   y = x;
-    if (x <= 10) y = 3 * x - 1;
-    if (x > 10)  y = 4 * x + 2;
+    else if (x <= 10) y = 3 * x - 1;
+    else if (x > 10)  y = 4 * x + 2;
     System.out.print("y = " + y);
   }
 }
