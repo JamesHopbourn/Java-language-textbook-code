@@ -1,4 +1,3 @@
-package hopbourn;
 import static hopbourn.common.*;
 
 public class Human {
