@@ -1,6 +1,6 @@
-public class mulExperiment{
+public class mulExperiment {
   public static void main(String[] args) {
-    System.out.println(MathSelf.mul(3,4));
-    System.out.println(MathSelfExe.mul(3.0,4.0)); 
+    System.out.println(MathSelf.mul(3, 4));
+    System.out.println(MathSelfExe.mul(3.0, 4.0));
   }
 }
