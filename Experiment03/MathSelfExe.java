@@ -7,5 +7,6 @@ public class MathSelfExe {
   }
   public static void main(String[] args) {
     System.out.println(MathSelfExe.mul(2,4)); 
+    System.out.println(MathSelfExe.mul(2.0,4.0)); 
   }
 }
