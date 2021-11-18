@@ -6,6 +6,6 @@ public class MathSelfExe {
     return a * b;
   }
   public static void main(String[] args) {
-   System.out.println(MathSelfExe.mul(2,4)); 
+    System.out.println(MathSelfExe.mul(2,4)); 
   }
 }
