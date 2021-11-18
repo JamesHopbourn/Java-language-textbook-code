@@ -8,6 +8,7 @@ javac mulExperiment.java
 
 java mulExperiment
 12
+12.0
 ```
 
 #### 可执行的 jar
@@ -22,6 +23,7 @@ jar cfm MathSelfExe.jar Manifest.txt MathSelfExe.class
 
 java -jar MathSelfExe.jar
 8
+8.0
 ```
 
 #### 参考资料
