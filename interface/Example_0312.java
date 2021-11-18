@@ -1,3 +1,8 @@
+interface Shape{
+  double getArea();
+  void info();
+}
+
 class Circle implements Shape{
   double PI = 3.14;
   double radius;
