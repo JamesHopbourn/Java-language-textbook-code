@@ -2,8 +2,8 @@ import java.util.*;
 
 public class twoSum {
   public static void main(String[] args) {
-        int[] arr = new int[] { 1,2,7,9 };
-        System.out.println(Arrays.toString(twoSum(arr,9)));
+    int[] arr = new int[] {1, 2, 7, 9};
+    System.out.println(Arrays.toString(twoSum(arr, 9)));
   }
 
   public static int[] twoSum(int[] nums, int target) {
