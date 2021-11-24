@@ -2,7 +2,7 @@ import java.util.Calendar;
 
 class myDate {
   public int year = 2020;
-  public int month =1;
+  public int month = 1;
   public int day = 1;
 
   myDate() {
