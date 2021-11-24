@@ -29,7 +29,7 @@ class Circle extends Shape{
 
 class MoonCakeFactory{
   public void produceMoonCake(Shape Shape){
-    System.out.println("制作了一个" + Shape.getShow()+ "的月饼，面积为" + Shape.getPerimeter());
+    System.out.println("制作了一个" + Shape.getShow()+ "的月饼，面积为 " + Shape.getPerimeter());
   }
 }
 
