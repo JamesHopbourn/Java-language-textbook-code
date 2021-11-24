@@ -2,7 +2,9 @@ import java.util.Calendar;
 import java.util.Scanner;
 
 class myDate {
-  int year, month, day;
+  public int year = 2020;
+  public int month =1;
+  public int day = 1;
 
   myDate() {
     Calendar cal = Calendar.getInstance();
