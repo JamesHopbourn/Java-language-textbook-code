@@ -56,7 +56,7 @@ public class Test4{
     // 制作圆形月饼
     factory.produceMoonCake(circle);
 
-    // // 制作三角形月饼
+    // 制作三角形月饼
     factory.produceMoonCake(triangle);
   }
 }
