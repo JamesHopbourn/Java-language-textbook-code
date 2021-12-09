@@ -24,25 +24,21 @@ public class List{
 
     // int 游标遍历
     Iterator<Integer> cursor1 = arrayListInteger.iterator();
-    while(cursor1.hasNext()){
-      Integer next = cursor1.next();
-      print("next: " + next);
-    }
+    while(cursor1.hasNext())
+      print("next: " + cursor1.next());
     print("size of arrayListInteger: " + arrayListInteger.size());
 
     // double 游标遍历 删除元素
     Iterator<Double> cursor2 = arrayListDouble.iterator();
     while(cursor2.hasNext()){
-      Double next = cursor2.next();
-      print(next);
+      print(cursor2.next());
       cursor2.remove();
     }
     print("size of arrayListDouble: " + arrayListDouble.size());
 
     // 普通遍历
-    for (int i = 0 ; i < arrayListDouble.size() ; i++) {
+    for (int i = 0 ; i < arrayListDouble.size() ; i++)
       print(arrayListDouble.get(i));
-    }
 
     // 增强遍历
     for (int item : arrayListInteger) print(item);
