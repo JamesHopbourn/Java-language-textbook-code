@@ -2,6 +2,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class List{
+  public static void print(Object message){System.out.println(message);}
+
   public static void main(String[] args) {
     ArrayList<Integer> arrayListInteger = new ArrayList<Integer>();
     ArrayList<Double> arrayListDouble = new ArrayList<Double>();
@@ -18,37 +20,32 @@ public class List{
 
     // 特定元素取值
     Integer test = arrayListInteger.get(1);
-    System.out.println("position of 1: " + test);
+    print("position of 1: " + test);
 
     // int 游标遍历
     Iterator<Integer> cursor1 = arrayListInteger.iterator();
     while(cursor1.hasNext()){
       Integer next = cursor1.next();
-      System.out.println("next: " + next);
+      print("next: " + next);
     }
-    System.out.println("size of arrayListInteger: " + arrayListInteger.size());
+    print("size of arrayListInteger: " + arrayListInteger.size());
 
     // double 游标遍历 删除元素
     Iterator<Double> cursor2 = arrayListDouble.iterator();
     while(cursor2.hasNext()){
       Double next = cursor2.next();
-      System.out.println(next);
+      print(next);
       cursor2.remove();
     }
-    System.out.println("size of arrayListDouble: " + arrayListDouble.size());
+    print("size of arrayListDouble: " + arrayListDouble.size());
 
     // 普通遍历
     for (int i = 0 ; i < arrayListDouble.size() ; i++) {
-      System.out.println(arrayListDouble.get(i));
+      print(arrayListDouble.get(i));
     }
 
     // 增强遍历
-    for (int item : arrayListInteger){
-      System.out.println(item);
-    }
-
-    for (String str : arrayListString){
-      System.out.println(str);
-    }
+    for (int item : arrayListInteger) print(item);
+    for (String string : arrayListString) print(string);
   }
 }
