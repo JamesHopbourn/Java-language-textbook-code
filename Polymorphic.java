@@ -1,4 +1,3 @@
-
 class Animal{
     public int age = 40;
 
