@@ -52,7 +52,7 @@ class Dog extends Animal{
     }
 }
 
-public class CatUDog {
+public class CatAndDog {
     public static void main(String[] args) {
         Cat cat1 = new Cat();
         cat1.setAge(2);

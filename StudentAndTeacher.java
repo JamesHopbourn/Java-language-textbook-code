@@ -1,5 +1,3 @@
-package com.stu;
-
 class People {
     private String name;
     private int age;
@@ -60,7 +58,7 @@ class Student extends People {
     }
 }
 
-public class StudentUTeacher {
+public class StudentAndTeacher {
     public static void main(String[] args) {
         Teacher t1 = new Teacher();
         t1.setAge(30);
